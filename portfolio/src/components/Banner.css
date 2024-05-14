@@ -1,0 +1,15 @@
+.header{
+    background: linear-gradient(to right, #4367aa, #0845e2f8, #c665ba, #d2498d, #cf6184);
+    -webkit-background-clip: text; /* Ensure text is visible */
+    background-clip: text;
+    color: transparent; /* Hide original text color */
+    font-weight: bolder;
+}
+
+.name{
+    background: linear-gradient(to right, #4367aa, #0845e2f8, #c665ba, #d2498d, #cf6184);
+    -webkit-background-clip: text; /* Ensure text is visible */
+    background-clip: text;
+    color: transparent; /* Hide original text color */
+    font-weight: bolder;
+}
