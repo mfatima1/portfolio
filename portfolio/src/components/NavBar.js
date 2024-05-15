@@ -9,17 +9,17 @@ const gradientStyle = {
 export const NavBar = () => {
     return (
         <div>
-          <Navbar bg="dark" data-bs-theme="dark">
+          <Navbar bg="black" data-bs-theme="dark" >
             <Container>
               <Navbar.Brand className="logo" href="#home" >Maliha Fatima</Navbar.Brand>
               <Nav className="navbar-nav">
-                <Nav.Link href="#home"  >About</Nav.Link>
-                <Nav.Link href="#features" >Education</Nav.Link>
-                <Nav.Link href="#pricing"  >Projects</Nav.Link>
+                <Nav.Link href="#About"  >About</Nav.Link>
+                <Nav.Link href="#Education" >Education</Nav.Link>
+                <Nav.Link href="#Projects"  >Projects</Nav.Link>
               </Nav>
             </Container>
           </Navbar>
-          <br />     
+             
         </div>
       );
     

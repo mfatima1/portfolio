@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <NavBar></NavBar>
-      <Banner text="Welcome to my website!" />
+      <Banner/>
     </div>
   );
 }

@@ -1,15 +1,30 @@
 .header{
-    background: linear-gradient(to right, #4367aa, #0845e2f8, #c665ba, #d2498d, #cf6184);
-    -webkit-background-clip: text; /* Ensure text is visible */
-    background-clip: text;
-    color: transparent; /* Hide original text color */
-    font-weight: bolder;
+    /* background: linear-gradient(to right, #4367aa, #0845e2f8, #c665ba, #d2498d, #cf6184); */
+    font-weight: 600;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .name{
-    background: linear-gradient(to right, #4367aa, #0845e2f8, #c665ba, #d2498d, #cf6184);
+    /* background: linear-gradient(to right, #4367aa, #0845e2f8, #c665ba, #d2498d, #cf6184); */
     -webkit-background-clip: text; /* Ensure text is visible */
     background-clip: text;
-    color: transparent; /* Hide original text color */
-    font-weight: bolder;
+    color: white;
+    font-weight: 600;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.cursor {
+    color: #fff; 
+    font-weight: bold;
+  }
+
+.banner-container {
+    background: linear-gradient(to bottom, #010109, #2f003d, #0E2954);
+    height: 100vh; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column; 
+   
 }
