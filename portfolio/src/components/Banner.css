@@ -7,7 +7,7 @@
 
 .name{
     /* background: linear-gradient(to right, #4367aa, #0845e2f8, #c665ba, #d2498d, #cf6184); */
-    -webkit-background-clip: text; /* Ensure text is visible */
+    -webkit-background-clip: text; 
     background-clip: text;
     color: white;
     font-weight: 600;
