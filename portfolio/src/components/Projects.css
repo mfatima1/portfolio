@@ -1,0 +1,75 @@
+.main-content{
+    height: 100vh;
+    background: linear-gradient(to bottom, #010109, #2f003d, #0E2954);
+}
+.title{
+    display: flex;
+    justify-content: center;
+    color: lightgray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: larger;
+    padding-top: 10px;
+
+}
+.title2{
+    display: flex;
+    justify-content: center;
+    color: lightgray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: larger;
+    margin-top: 30px;
+
+}
+
+.button1 {
+    background-color: black;
+    background-image: linear-gradient(
+        90deg,
+        #2f003d 0%,
+        #0E2954 100%
+      );
+      background-size: 0 100%;
+      background-repeat: no-repeat;
+      transition: 0.7s;
+    
+}
+
+.button1:hover{
+    background-size: 100% 100%;
+}
+
+.card{
+    background: black;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+.card:hover{
+    border: 3px solid;
+    border-color: #0E2954;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 50px;
+}
+
+.rose{
+    border-radius: 50px;
+}
+.bear{
+    border-radius: 50px;
+   
+}
+
+.hackathon{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    gap: 40px;
+}
