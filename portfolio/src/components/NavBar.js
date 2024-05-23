@@ -21,6 +21,9 @@ export const NavBar = () => {
             <Nav.Link as={Link} to="Projects" spy={true} smooth={true} offset={-70} duration={500}>
               Projects
             </Nav.Link>
+            <Nav.Link as={Link} to="Experience" spy={true} smooth={true} offset={-70} duration={500}>
+              Experience
+            </Nav.Link>
             <Nav.Link as={Link} to="Contact" spy={true} smooth={true} offset={-70} duration={500}>
               Contact
             </Nav.Link>
