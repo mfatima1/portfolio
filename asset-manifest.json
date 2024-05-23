@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.1023ee1c.css",
+    "main.js": "/portfolio/static/js/main.810cd793.js",
+    "static/js/453.ace21015.chunk.js": "/portfolio/static/js/453.ace21015.chunk.js",
+    "static/media/snapChef.png": "/portfolio/static/media/snapChef.978e91b11c58d31fdd32.png",
+    "static/media/Group_12.png": "/portfolio/static/media/Group_12.4c57e5cc3aba23aa0efc.png",
+    "static/media/medi.png": "/portfolio/static/media/medi.6e4a3fbf696532f94344.png",
+    "static/media/MalihaFatimaResume.pdf": "/portfolio/static/media/MalihaFatimaResume.7aeade72d4bf73f16592.pdf",
+    "static/media/original.png": "/portfolio/static/media/original.95c99f761bf795d2b061.png",
+    "static/media/revicons.eot": "/portfolio/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/portfolio/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/portfolio/static/media/revicons.e8746a624ed098489406.woff",
+    "static/media/logo.svg": "/portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/portfolio/index.html",
+    "main.1023ee1c.css.map": "/portfolio/static/css/main.1023ee1c.css.map",
+    "main.810cd793.js.map": "/portfolio/static/js/main.810cd793.js.map",
+    "453.ace21015.chunk.js.map": "/portfolio/static/js/453.ace21015.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1023ee1c.css",
+    "static/js/main.810cd793.js"
+  ]
+}
