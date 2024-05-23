@@ -74,16 +74,16 @@ export const About = () => {
                 <strong><p>University of California, Riverside</p></strong>  
                     <p>Bachelors in Computer Science with Business Applications</p>
                     <p>September 2022 - June 2024</p>
-                    <p>GPA: 3.8</p>
+                    <p>GPA: 3.7</p>
                 </Box1>
                 <Box2 className='box2'>
                 <strong><p>Riverside City College</p></strong> 
                     <p>Associates in Computer Science</p>
                     <p>August 2019 - June 2022</p>
-                    <p>GPA: 3.8</p>
+                    <p>GPA: 3.76</p>
                 </Box2>
             </div>
-       
+            <p className='subheading1'>Skills</p>
                 <div className='progress'>
                     <div className='progress-bar'>
     <AnimatedProgressProvider
@@ -160,7 +160,7 @@ export const About = () => {
                     </div>
                 
                 </div>
-        <p className='subheading'>Tools/Frameworks/Language</p>
+        <p className='subheading'>Technologies and Tools</p>
         <div className='icons'>
         <IconWrapper className="html-icon"><FaHtml5 /></IconWrapper>
         <IconWrapper className="css-icon"><DiCss3 /></IconWrapper>
