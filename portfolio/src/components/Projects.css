@@ -48,8 +48,10 @@
 }
 
 .card:hover{
-    border: 3px solid;
-    border-color: #0E2954;
+    /* border: 3px solid;
+    border-color: #0E2954; */
+    box-shadow: 0 0 10px 5px rgba(0, 123, 255, 0.5); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .cards{
@@ -66,10 +68,23 @@
     border-radius: 50px;
    
 }
-
+.hackathon a {
+    display: inline-block;
+  }
+  
 .hackathon{
     display: flex;
     justify-content: center;
     margin-top: 60px;
     gap: 40px;
+}
+
+.hackathon img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+  
+.hackathon img:hover {
+    transform: scale(1.2);
+    box-shadow: 0 0 10px 5px rgba(0, 123, 255, 0.5); 
+    border-radius: 50%;
 }

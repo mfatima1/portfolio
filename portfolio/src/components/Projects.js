@@ -2,9 +2,11 @@ import React from 'react'
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import './Projects.css';
-import snapImage from './snap.png';
+import snapImage from './snapChef.png';
+import fitness from './Group_12.png'
 import roseHack from './rose_hack_logo.jpeg';
 import bearHack from './original.png';
+import medi from './medi.png'
 
 export const Projects = () => {
   return (
@@ -12,7 +14,7 @@ export const Projects = () => {
         <p className='title'> Projects</p>
         <div className='cards'>
             <div className='card1'>
-      <Card className="card" style={{ width: '18rem' }}>
+      <Card className="card" style={{ width: '19rem' }}>
       <Card.Img variant="top" src={snapImage}  />
       <Card.Body>
         <Card.Title><strong>SnapChef</strong></Card.Title>
@@ -26,8 +28,8 @@ export const Projects = () => {
     </Card>
             </div>
             <div className='card2'>
-      <Card className="card" style={{ width: '18rem' }}>
-      <Card.Img variant="top" src={snapImage}  />
+      <Card className="card" style={{ width: '19rem' }}>
+      <Card.Img variant="top" src={fitness}  />
       <Card.Body>
         <Card.Title><strong>Fitness Tracker</strong></Card.Title>
         <Card.Text>
@@ -40,12 +42,12 @@ export const Projects = () => {
     </Card>
             </div>
             <div className='card3'>
-      <Card className="card" style={{ width: '18rem' }}>
-      <Card.Img variant="top" src={snapImage}  />
+      <Card className="card" style={{ width: '19rem', }}>
+      <Card.Img variant="top" src={medi} height={'189px'} width={'400px'}/>
       <Card.Body>
         <Card.Title><strong>Medisearch</strong></Card.Title>
         <Card.Text>
-          Track Your Fitness
+          Search for Medication
         </Card.Text>
         <a href='https://medisearchapp.vercel.app/' target="_blank" rel="noopener noreferrer"><Button className="button1" variant="primary">Source Code</Button></a>
       </Card.Body>
@@ -55,8 +57,12 @@ export const Projects = () => {
         </div>
         <p className='title2'> UCR Hackathons</p>
         <div className='hackathon'>
-        <Card.Img className='rose' variant="top" src={roseHack} style={{ width: '100px', height: '100px' }} />
-        <Card.Img className='bear' variant="top" src={bearHack} style={{ width: '100px', height: '100px' }} />
+        <a href='https://www.rosehack.com/' target="_blank" rel="noopener noreferrer">
+          <Card.Img className='rose' variant="top" src={roseHack} style={{ width: '100px', height: '100px' }} />
+        </a>
+        <a href='https://bearhack.com/' target="_blank" rel="noopener noreferrer">
+          <Card.Img className='bear' variant="top" src={bearHack} style={{ width: '100px', height: '100px' }} />
+        </a>
         </div>
     </div>
   )

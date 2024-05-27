@@ -7,7 +7,7 @@ import './Experience.css'
 export const Experience = () => {
   return (
     <div className='main-container'>
-        <p> Experience</p>
+        <p className='title'> Experience</p>
        <div className='timeline'>
        <VerticalTimeline lineColor='white'>
   <VerticalTimelineElement
@@ -40,7 +40,7 @@ export const Experience = () => {
     iconStyle={{ background: 'linear-gradient(to bottom, #010109, #2f003d, #0E2954)', color: '#fff' }}
     icon={<LiaUniversitySolid />}
   >
-    <h4 className="vertical-timeline-element-title">Peer Mentor</h4>
+    <h4 className="vertical-timeline-element-title">Peer Instructor</h4>
     <p className="vertical-timeline-element-subtitle">Riverside City College, CA</p>
    
   </VerticalTimelineElement>
